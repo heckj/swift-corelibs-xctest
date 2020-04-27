@@ -12,6 +12,8 @@
 //  The purpose of this class is to mirror the design of Apple XCTest.
 //
 
+import Foundation
+
 /// An abstract base class for testing. `XCTestCase` and `XCTestSuite` extend
 /// `XCTest` to provide for creating, managing, and executing tests. Most
 /// developers will not need to subclass `XCTest` directly.

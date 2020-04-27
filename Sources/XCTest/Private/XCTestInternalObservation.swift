@@ -11,6 +11,7 @@
 //  Extra hooks used within XCTest for being notified about additional events
 //  during a test run.
 //
+import Foundation
 
 /// Expanded version of `XCTestObservation` used internally to respond to
 /// additional events not publicly exposed.

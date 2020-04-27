@@ -10,6 +10,7 @@
 //  XCTSkip.swift
 //  APIs for skipping tests
 //
+import Foundation
 
 /// An error which causes the current test to cease executing
 /// and be marked as skipped when it is thrown.

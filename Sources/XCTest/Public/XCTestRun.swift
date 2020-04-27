@@ -10,6 +10,7 @@
 //  XCTestRun.swift
 //  A test run collects information about the execution of a test.
 //
+import Foundation
 
 /// A test run collects information about the execution of a test. Failures in
 /// explicit test assertions are classified as "expected", while failures from

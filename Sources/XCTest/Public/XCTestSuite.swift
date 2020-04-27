@@ -10,6 +10,7 @@
 //  XCTestSuite.swift
 //  A collection of test cases.
 //
+import Foundation
 
 /// A subclass of XCTest, XCTestSuite is a collection of test cases. Based on
 /// what's passed into XCTMain(), a hierarchy of suites is built up, but

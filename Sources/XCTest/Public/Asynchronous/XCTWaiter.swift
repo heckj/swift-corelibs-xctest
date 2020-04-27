@@ -10,7 +10,8 @@
 //  XCTWaiter.swift
 //
 
-import CoreFoundation
+//import CoreFoundation
+import Foundation
 
 /// Events are reported to the waiter's delegate via these methods. XCTestCase conforms to this
 /// protocol and will automatically report timeouts and other unexpected events as test failures.
@@ -362,7 +363,7 @@ private extension XCTWaiter {
         let timeIntervalToRun = min(0.1, timeout)
 
         // RunLoop.run(mode:before:) should have @discardableResult <rdar://problem/45371901>
-        _ = runLoop.run(mode: .default, before: Date(timeIntervalSinceNow: timeIntervalToRun))
+        _ = runLoop.run(mode: RunLoop.Mode.default, before: Date(timeIntervalSinceNow: timeIntervalToRun))
     }
 
     func cancelPrimitiveWait() {

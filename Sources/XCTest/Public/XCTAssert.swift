@@ -9,6 +9,7 @@
 //
 //  XCTAssert.swift
 //
+import Foundation
 
 private enum _XCTAssertion {
     case equal

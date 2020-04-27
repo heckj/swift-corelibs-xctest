@@ -10,7 +10,7 @@
 //  XCTestCase.swift
 //  Base class for test cases
 //
-
+import Foundation
 /// A block with the test code to be invoked when the test runs.
 ///
 /// - Parameter testCase: the test case associated with the current test code.

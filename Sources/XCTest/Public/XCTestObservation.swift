@@ -11,6 +11,8 @@
 //  Hooks for being notified about progress during a test run.
 //
 
+import Foundation
+
 /// `XCTestObservation` provides hooks for being notified about progress during a
 /// test run.
 /// - seealso: `XCTestObservationCenter`

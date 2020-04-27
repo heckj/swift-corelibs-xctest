@@ -10,6 +10,7 @@
 //  XCTestCaseRun.swift
 //  A test run for an `XCTestCase`.
 //
+import Foundation
 
 /// A test run for an `XCTestCase`.
 open class XCTestCaseRun: XCTestRun {

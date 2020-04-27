@@ -9,6 +9,7 @@
 //
 //  IgnoredErrors.swift
 //
+import Foundation
 
 protocol XCTCustomErrorHandling: Error {
 

@@ -10,6 +10,7 @@
 //  TestListing.swift
 //  Implementation of the mode for printing the list of tests.
 //
+import Foundation
 
 internal struct TestListing {
     private let testSuite: XCTestSuite

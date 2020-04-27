@@ -10,6 +10,7 @@
 //  XCTestCaseSuite.swift
 //  A test suite associated with a particular test case class.
 //
+import Foundation
 
 /// A test suite which is associated with a particular test case class. It will
 /// call `setUp` and `tearDown` on the class itself before and after invoking

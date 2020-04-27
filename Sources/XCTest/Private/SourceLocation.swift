@@ -9,6 +9,7 @@
 //
 //  SourceLocation.swift
 //
+import Foundation
 
 internal struct SourceLocation {
 

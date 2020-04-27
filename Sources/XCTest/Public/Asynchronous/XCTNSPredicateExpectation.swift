@@ -9,6 +9,7 @@
 //
 //  XCTNSPredicateExpectation.swift
 //
+import Foundation
 
 /// Expectation subclass for waiting on a condition defined by an NSPredicate and an optional object.
 open class XCTNSPredicateExpectation: XCTestExpectation {
@@ -95,7 +96,7 @@ open class XCTNSPredicateExpectation: XCTestExpectation {
             }
         }
 
-        runLoop.add(timer, forMode: .default)
+        runLoop.add(timer, forMode: RunLoop.Mode.default)
         queue.async {
             self.timer = timer
         }

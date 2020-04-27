@@ -10,6 +10,7 @@
 //  PerformanceMeter.swift
 //  Measures the performance of a block of code and reports the results.
 //
+import Foundation
 
 /// Describes a type that is capable of measuring some aspect of code performance
 /// over time.

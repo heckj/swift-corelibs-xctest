@@ -10,6 +10,7 @@
 //  ObjectWrapper.swift
 //  Utility type for adapting implementors of a `class` protocol to `Hashable`
 //
+import Foundation
 
 /// A `Hashable` representation of an object and its `ObjectIdentifier`. This is
 /// useful because Swift classes aren't implicitly hashable based on identity.

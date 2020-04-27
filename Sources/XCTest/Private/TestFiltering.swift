@@ -10,6 +10,7 @@
 //  XCTestFiltering.swift
 //  This provides utilities for executing only a subset of the tests provided to `XCTMain`
 //
+import Foundation
 
 internal typealias TestFilter = (XCTestCase.Type, String) -> Bool
 

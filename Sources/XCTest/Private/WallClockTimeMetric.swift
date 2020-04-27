@@ -10,6 +10,7 @@
 //  WallClockTimeMetric.swift
 //  Performance metric measuring how long it takes code to execute
 //
+import Foundation
 
 /// This metric uses the system uptime to keep track of how much time passes
 /// between starting and stopping measuring.

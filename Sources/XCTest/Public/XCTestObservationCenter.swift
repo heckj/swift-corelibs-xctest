@@ -10,6 +10,7 @@
 //  XCTestObservationCenter.swift
 //  Notification center for test run progress events.
 //
+import Foundation
 
 private let _sharedCenter: XCTestObservationCenter = XCTestObservationCenter()
 

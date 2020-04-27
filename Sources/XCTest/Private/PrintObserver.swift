@@ -10,6 +10,7 @@
 //  PrintObserver.swift
 //  Prints test progress to stdout.
 //
+import Foundation
 
 /// Prints textual representations of each XCTestObservation event to stdout.
 /// Mirrors the Apple XCTest output exactly.

@@ -9,6 +9,7 @@
 //
 //  XCTestExpectation.swift
 //
+import Foundation
 
 /// Expectations represent specific conditions in asynchronous testing.
 open class XCTestExpectation {

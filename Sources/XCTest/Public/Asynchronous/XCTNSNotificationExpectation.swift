@@ -9,6 +9,7 @@
 //
 //  XCTNSNotificationExpectation.swift
 //
+import Foundation
 
 /// Expectation subclass for waiting on a condition defined by a Foundation Notification instance.
 open class XCTNSNotificationExpectation: XCTestExpectation {

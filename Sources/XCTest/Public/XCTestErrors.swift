@@ -10,6 +10,7 @@
 //  XCTestErrors.swift
 //  Constants used in errors produced by the XCTest library.
 //
+import Foundation
 
 /// The domain used by errors produced by the XCTest library.
 public let XCTestErrorDomain = "org.swift.XCTestErrorDomain"

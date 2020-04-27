@@ -9,6 +9,7 @@
 //
 //  XCTWaiter+Validation.swift
 //
+import Foundation
 
 protocol XCTWaiterValidatableExpectation: Equatable {
     var isFulfilled: Bool { get }

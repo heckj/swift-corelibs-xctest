@@ -9,6 +9,7 @@
 //
 //  WaiterManager.swift
 //
+import Foundation
 
 internal protocol ManageableWaiter: AnyObject, Equatable {
     var isFinished: Bool { get }

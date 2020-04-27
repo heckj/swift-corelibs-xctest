@@ -10,6 +10,7 @@
 //  XCTestCase+Performance.swift
 //  Methods on XCTestCase for testing the performance of code blocks.
 //
+import Foundation
 
 public struct XCTPerformanceMetric : RawRepresentable, Equatable, Hashable {
     public let rawValue: String

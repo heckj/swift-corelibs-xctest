@@ -10,6 +10,7 @@
 //  ArgumentParser.swift
 //  Tools for parsing test execution configuration from command line arguments.
 //
+import Foundation
 
 /// Utility for converting command line arguments into a strongly-typed
 /// representation of the passed-in options

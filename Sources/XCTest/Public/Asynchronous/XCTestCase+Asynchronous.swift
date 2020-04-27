@@ -10,6 +10,7 @@
 //  XCTestCase+Asynchronous.swift
 //  Methods on XCTestCase for testing asynchronous operations
 //
+import Foundation
 
 public extension XCTestCase {
 
